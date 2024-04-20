@@ -4,9 +4,9 @@ let random = Math.floor(Math.random() * 20) + 1;
 
 document.querySelector(".check").addEventListener("click", function(){
     let guess = Number(document.querySelector(".guess").value);
-    console.log(guess);
+    // console.log(guess);
     
-    console.log(random);
+    // console.log(random);
 
 
     document.querySelector(".number").textContent = guess;
