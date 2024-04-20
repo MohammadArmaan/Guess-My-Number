@@ -84,5 +84,7 @@ document.querySelector(".again").addEventListener("click", function(){
 
     document.body.style.backgroundColor = "#222";
 
+    document.querySelector(".number").style.width = "15rem";
+
     random = Math.floor(Math.random() * 20) + 1
 });
