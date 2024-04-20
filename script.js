@@ -52,6 +52,7 @@ document.querySelector(".check").addEventListener("click", function(){
     if(score <= 0){
         document.querySelector(".message").textContent = "Game Over ❌";
         document.querySelector(".score").textContent = 0;
+        document.body.style.backgroundColor = "#ff3333";
     }
 
 });
