@@ -135,7 +135,34 @@ h1 {
   .right{
     font-size: 1rem;
     width: 26rem;
+    position: relative;
   }
+
+  .right .message{
+    position: absolute;
+    top: -175%;
+    right: 0;
+    width: 100%;
+    transform: translate(-40%, -400%);
+  }
+
+  .right .label-score {
+    position: absolute;
+    top: -175%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -400%);
+  }
+
+  .right .label-highscore {
+    position: absolute;
+    top: -175%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -100%);
+  }
+
+
 
   h1{
     font-size: 2rem;
